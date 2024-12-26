@@ -1,0 +1,67 @@
+{
+    "user":[
+        {
+            "name":"Vijay Kumar",
+            "mobNumber":"9772193393",
+            "age":25,
+            "dob":"22-07-2001",
+            "email":"vijaykumar@gmail.com",
+            "password":"123456",
+            "address":{
+                "addressLine1":"Street 1",
+                "addressLine2":"Street 2",
+                "city":"City 1",
+                "state":"State 1",
+                "zipCode":"111111"
+            },
+            "language":[
+                "English",
+                "Hindi",
+                "Bhojpuri"
+            ],
+            "gender":"Male",
+            "aboutYou":"I am a programmeer",
+            "uploadPhoto":"abc.png",
+            "agreetc":true,
+            "role":"admin",
+            "id":1
+        }
+    ],
+    "products":[
+        {
+            "id":1,
+            "name":"Product 1",
+            "uploadPhoto":"abc.png",
+            "productDesc":"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus odit quas necessitatibus tempora cum iste!",
+            "mrp":"1000",
+            "dp":"499",
+            "status":"publish"
+        }
+    ],
+    "orders":[
+        {
+            "id":1,
+            "userId":1,
+            "sellerId":1,
+            "product":{
+                "id":1,
+                "name":"Product 1",
+                "uploadPhoto":"abc.png",
+                "productDesc":"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus odit",
+                "mrp":"600",
+                "dp":"199",
+                "status":"inactive"
+            },
+            "deliveyAddress":{
+                "id":0,
+                "addressLine1":"Ludhiana",
+                "addressLine2":"urban estate",
+                "city":"Ludhiana",
+                "state":"Punjab",
+                "zipCode":"141001"
+            },
+            "contact":"9006523123",
+            "dateTime":"2022-01-01"
+        }
+    ]
+}
